@@ -104,3 +104,74 @@ a:hover {
   background-color: var(--color-dark-accent);
   text-decoration: none;
 }
+main section {
+  padding: 4rem 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+  scroll-margin: 4rem;
+}
+main h2 {
+  margin-bottom: 1.5rem;
+}
+#hakkimda img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+  object-fit: cover;
+}
+#hakkimda p {
+  margin-bottom: 1rem;
+}
+.skills {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.skills li {
+  background-color: var(--color-card-bg);
+  padding: 0.4rem 1rem;
+  border-radius: 50px;
+  font-size: 0.9rem;
+}
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  background-color: var(--color-card-bg);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  transition: all 0.2s ease;
+}
+.project-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  transform: translateY(-4px);
+}
+.timeline {
+  list-style: none;
+  border-left: 2px solid var(--color-accent);
+  padding-left: 1.5rem;
+}
+.timeline li {
+  margin-bottom: 1.5rem;
+}
+.timeline p {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+address {
+  font-style: normal;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+footer {
+  text-align: center;
+  padding: 2rem;
+  border-top: 1px solid #e5e7eb;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
