@@ -2,7 +2,7 @@
 
 HTML, CSS ve JavaScript ile hazırladığım kişisel tanıtım sitem.
 
-🔗 **Canlı site:** https://kaangt-r.github.io/portfolyo/
+🔗 **Canlı site:** https://kaanata-dev.github.io/portfolyo/
 
 ## Kullanılan teknolojiler
 
