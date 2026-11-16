@@ -209,6 +209,14 @@ main h2 {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
   transform: translateY(-4px);
 }
+.project-card img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+}
 .timeline {
   list-style: none;
   border-left: 2px solid var(--color-accent);
